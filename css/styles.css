@@ -171,12 +171,18 @@ button {
   margin-left: 50px;
 }
 
-.ph-mail,
+.ph-mail :hover {
+  color: #2196f3;
+}
+
 .ph-tel :hover {
   color: #2196f3;
 }
 
-.ph-mail,
+.ph-mail :focus {
+  color: #2196f3;
+}
+
 .ph-tel :focus {
   color: #2196f3;
 }
@@ -272,8 +278,14 @@ button {
   margin-right: 30px;
 }
 
-.about {
-  background-color: #fff;
+.sct-list::before {
+  content: none;
+  display: block;
+  height: 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #f5f4fa;
+  border-radius: 4px;
 }
 
 .about-logo {
@@ -288,7 +300,7 @@ button {
 
 .about-items {
   color: #757575;
-  display: flex;
+  list-style: none;
   display: flex;
 }
 
