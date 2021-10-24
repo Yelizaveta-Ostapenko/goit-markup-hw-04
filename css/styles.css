@@ -124,6 +124,13 @@ button {
   letter-spacing: 0.02em;
 }
 
+.icon-mail {
+  height: 12px;
+  width: 16px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+
 .page-header-contacts a {
   text-decoration: none;
   color: #757575;
@@ -279,7 +286,7 @@ button {
 }
 
 .sct-list::before {
-  content: none;
+  content: "";
   display: block;
   height: 120px;
   background-repeat: no-repeat;
