@@ -131,6 +131,13 @@ button {
   fill: currentColor;
 }
 
+.icon-telephone {
+  height: 12px;
+  width: 16px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+
 .page-header-contacts a {
   text-decoration: none;
   color: #757575;
