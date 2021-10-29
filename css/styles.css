@@ -113,7 +113,7 @@ button {
   letter-spacing: 0.02em;
 }
 
-.page-header-contacts {
+.contacts {
   display: flex;
   align-items: center;
   margin-left: auto;
@@ -129,6 +129,8 @@ button {
   width: 16px;
   margin-right: 10px;
   fill: currentColor;
+  display: flex;
+  align-items: center;
 }
 
 .icon-telephone {
@@ -136,9 +138,11 @@ button {
   width: 10px;
   margin-right: 10px;
   fill: currentColor;
+  display: flex;
+  align-items: center;
 }
 
-.page-header-contacts a {
+.contacts a {
   text-decoration: none;
   color: #757575;
 }
@@ -151,16 +155,7 @@ button {
   color: #2196f3;
 }
 
-.header-link {
-  text-decoration: none;
-  color: #212121;
-}
-
-.current {
-  color: #2196f3;
-}
-
-.ph-mail {
+.page-header-mail {
   margin-right: 50px;
   font-family: Roboto;
   font-weight: 500;
@@ -171,7 +166,7 @@ button {
   text-decoration: none;
 }
 
-.ph-tel {
+.page-header-tel {
   font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
@@ -185,19 +180,19 @@ button {
   margin-left: 50px;
 }
 
-.ph-mail :hover {
+.page-header-mail :hover {
   color: #2196f3;
 }
 
-.ph-tel :hover {
+.page-header-tel :hover {
   color: #2196f3;
 }
 
-.ph-mail :focus {
+.page-header-mail :focus {
   color: #2196f3;
 }
 
-.ph-tel :focus {
+.page-header-tel :focus {
   color: #2196f3;
 }
 
@@ -210,15 +205,21 @@ button {
   color: #757575;
 }
 
+.header-link {
+  text-decoration: none;
+  color: #212121;
+}
+
+.current {
+  color: #2196f3;
+}
+
 .hero {
   background-color: #2f303a;
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
   max-width: 1600px;
-}
-
-.hero {
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
@@ -228,6 +229,8 @@ button {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .hero-logo {
@@ -265,7 +268,7 @@ button {
 
 .section {
   background-color: #fff;
-  padding: 94px;
+  padding: 94px 0;
 }
 
 .section-list {
